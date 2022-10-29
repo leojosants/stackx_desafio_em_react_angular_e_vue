@@ -36,6 +36,7 @@
 .container-list li {
     padding: 5px;
     color: var(--galery);
+    cursor: pointer;
 }
 
 .container-languages {
@@ -61,4 +62,5 @@
     border-radius: 8px;
     padding: 5px;
     margin-left: 100px;
+    cursor: pointer;
 }

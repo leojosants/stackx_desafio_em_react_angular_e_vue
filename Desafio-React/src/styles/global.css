@@ -18,9 +18,12 @@ body {
 }
 
 /* COMPLETAR PARA ESTILO GLOBAL */
-body {
+body, div, h1, li, p{
     /* rem / auto preenchimento responsivo  */
     font-size: 1rem;
+
+    font-family: 'Inter', sans-serif;
+
 
     /* evita distorção da fonte / acessibilidade*/
     -webtkit-font-smoothing: antialiased;
