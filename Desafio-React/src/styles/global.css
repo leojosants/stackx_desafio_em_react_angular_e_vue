@@ -1,0 +1,27 @@
+/*  */
+
+:root {
+   --shark:     #27272A;
+   --white:     #FFFFFF;
+   --brown:     #9D4B00;
+   --galery:    #EDEDED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+}
+
+/* COMPLETAR PARA ESTILO GLOBAL */
+body {
+    /* rem / auto preenchimento responsivo  */
+    font-size: 1rem;
+
+    /* evita distorção da fonte / acessibilidade*/
+    -webtkit-font-smoothing: antialiased;
+}
