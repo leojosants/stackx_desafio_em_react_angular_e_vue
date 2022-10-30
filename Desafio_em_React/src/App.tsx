@@ -6,7 +6,7 @@ import { GlobbalStyle } from './styles/global';
 function App() {
   return (
       <>
-      <Home />
+        <Home />
         <GlobbalStyle />
       </>
   );
