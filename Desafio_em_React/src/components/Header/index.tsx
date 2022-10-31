@@ -12,7 +12,9 @@ export function Header() {
     return (
         <Container>
             <Content>
-                <ImageLogo src={imageLogo} alt='stackx' />
+                <div>
+                    <ImageLogo src={imageLogo} alt='stackx' />
+                </div>
             </Content>
         </Container>
     )

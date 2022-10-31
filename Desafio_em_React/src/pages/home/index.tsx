@@ -14,6 +14,12 @@ export function Home() {
         <Container>
             <Header />
             <Languages />
+            
+
+            <div>
+                idiomas
+            </div>
+
             {/* <Content>    
                 <h1>www</h1>
             </Content>  */}

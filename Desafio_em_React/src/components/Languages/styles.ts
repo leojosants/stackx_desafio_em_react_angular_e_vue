@@ -9,6 +9,11 @@ export const Container = styled.div`
     height: 72px;
     left: 0px;
     margin-top: 10px;
+
+    p {
+        font-size: 24px;
+        color: var(--white);
+    }
 `;
 
 // export const Content = styled.div`
