@@ -2,18 +2,21 @@
 
 import {
     Container,
-    Content
+    // Content
 } from './styles';
+
 import { Header } from '../../components/Header';
+import { Languages } from '../../components/Languages';
 
 export function Home() {
     
     return (
         <Container>
             <Header />
+            <Languages />
+            {/* <Content>    
                 <h1>www</h1>
-            <Content>    
-            </Content> 
+            </Content>  */}
 
         </Container>
     )
