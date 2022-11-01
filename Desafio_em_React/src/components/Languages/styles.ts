@@ -10,7 +10,11 @@ export const Container = styled.div`
     left: 0px;
     margin-top: 10px;
 
-    p {
+    li {
+        margin-left: 10px;
+    }
+
+    h1 {
         font-size: 24px;
         color: var(--white);
     }
