@@ -1,12 +1,13 @@
 import { Header} from '../../components/Header'
 import { Technologies } from '../../components/Technologies'
+import { useEffect, useState } from 'react';
 import { 
     Container,
     Content,
-    
  } from './styles'
 
 export function Home() {
+
     return (
         <Container>
             <Header />
@@ -14,15 +15,8 @@ export function Home() {
 
                 <p>Título</p>
 
-                <Technologies />
+                <Technologies nome='leo' text='developer'  />
 
-                <div>Lista de Tecnologias</div>
-
-                <div>
-                    <div>Português</div>
-                    <div>Ingles</div>
-                    <div>Espanhol</div>
-                </div>
             </Content>
         </Container>
     )

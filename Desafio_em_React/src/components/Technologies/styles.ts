@@ -9,7 +9,9 @@ export const Container = styled.div`
     border-radius: 8px;
     box-sizing: border-box;
     border: 1px solid #9D4B00;
-    
 
+    p {
+        margin-top: 16px;
+    }
 
 `;
