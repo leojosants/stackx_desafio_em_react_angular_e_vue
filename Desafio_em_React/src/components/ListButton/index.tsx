@@ -9,7 +9,7 @@ type ListButtonProps = {
 export function ListButton({title, changeTitle} : ListButtonProps) {
 
     function handleClick() {
-        changeTitle(title)
+        changeTitle(`Tecnologia selecionada: ` + title)
     }
 
     return(

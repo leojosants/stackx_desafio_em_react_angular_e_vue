@@ -21,7 +21,7 @@ export function List({ changeTitle }: ListProps) {
                 {
                     lista.map((value, index) => {
                         return <li>
-                            {<ListButton title={value} changeTitle={changeTitle} />}
+                            {<ListButton title={value} changeTitle= {changeTitle} />}
                         </li>
                     })
                 }
