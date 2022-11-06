@@ -1,4 +1,4 @@
-import { 
+import {
     Container,
     ImageBrazil,
     ImageSpain,
@@ -10,10 +10,10 @@ import spain from '../../assets/images/spain 2.png';
 import unitedStates from '../../assets/images/united-states.png';
 
 type FooterProps = {
-    changeTitle : (params : string) => void
+    changeTitle: (params: string) => void
 }
 
-export function Footer({changeTitle} : FooterProps) {
+export function Footer({ changeTitle }: FooterProps) {
 
     function handleChangePortuguese() {
         changeTitle(`
@@ -36,28 +36,30 @@ export function Footer({changeTitle} : FooterProps) {
         `);
     };
 
-    return(
+    return (
         <Container>
-            <div className='div1'>
-                <ImageBrazil src={brazil} alt='image' />
-                <button onClick={handleChangePortuguese}>
+
+            <button onClick={handleChangePortuguese}>
+                <div className='div1'>
+                    <ImageBrazil src={brazil} alt='image' />
                     Português
-                </button>
-            </div>
-     
-            <div className='div2'>
-                <ImageSpain src={spain} alt='image' />
-                <button onClick={handleChangeEnglish}>
+                </div>
+            </button>
+
+            <button onClick={handleChangeEnglish}>
+                <div className='div2'>
+                    <ImageSpain src={spain} alt='image' />
                     Inglês
-                </button>
-            </div>
-     
-            <div className='div3'>
-                <ImageUnitedStates src={unitedStates} alt='image' />
-                <button onClick={handleChangeSpanish}>
+                </div>
+            </button>
+
+            <button onClick={handleChangeSpanish}>
+                <div className='div3'>
+                    <ImageUnitedStates src={unitedStates} alt='image' />
                     Espanhol
-                </button>
-            </div>
+                </div>
+            </button>
+
         </Container>
     );
 }
