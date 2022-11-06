@@ -5,18 +5,18 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    /* position: absolute; */
-    width: 1440px;
-    height: 900px;
-    background: #121212;
     color: #FFFFFF;
-    
-    p {
-        margin-top: 168px;
 
+    h1 {
+        width: 791px;
+        height: 76px;
+        margin-top: 168px;
+        margin-left: 325px;
+        
+        font-weight: 700px;
         font-size: 24px;
         line-height: 38.4px;
         text-align: center;
-    }
 
+    }
 `;

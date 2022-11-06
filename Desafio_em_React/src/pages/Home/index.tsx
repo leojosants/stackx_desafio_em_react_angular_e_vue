@@ -1,22 +1,24 @@
+import { Button } from '../../components/Button';
 import { Header} from '../../components/Header'
-import { Technologies } from '../../components/Technologies'
-import { useEffect, useState } from 'react';
+import { List} from '../../components/List'
 import { 
     Container,
     Content,
- } from './styles'
+ } from './styles';
 
 export function Home() {
-
     return (
         <Container>
             <Header />
             <Content>
-
-                <p>Título</p>
-
-                <Technologies nome='leo' text='developer'  />
-
+                <div>
+                    <h1>
+                        Olá, meu nome é <strong>Leonardo Santos</strong>  e eu sou Desenvolvedor Full Stack Jr,<br/><strong>Tecnologias que tenho conhecimento:</strong>
+                    </h1>
+                </div>
+                
+                <List />
+                <Button  />
             </Content>
         </Container>
     )

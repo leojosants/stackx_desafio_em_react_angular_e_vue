@@ -19,12 +19,11 @@ export const GlobalStyle = createGlobalStyle`
 
     body, button {
         font-family: 'Inter', sans-serif;
+        /* color: #FFFF; */
     }
 
     button {
         cursor: pointer;
     }
-
-
 
 `;
