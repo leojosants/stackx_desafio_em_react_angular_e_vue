@@ -1,9 +1,14 @@
 import { Container } from "./style";
+import { ListButton } from '../ListButton/index';
 
-export function List() {
+type ListProps = {
+    changeTitle: (params: string) => void;
+}
+
+export function List({ changeTitle }: ListProps) {
 
     const lista = [
-        "JavaScript", "React", 
+        "JavaScript", "React",
         "Vue Js", "Tailwind CSS",
         "Styled Components", "Saas",
         "Node", "TypeScript",
@@ -16,7 +21,7 @@ export function List() {
                 {
                     lista.map((value, index) => {
                         return <li>
-                            {value}
+                            {<ListButton title={value} changeTitle={changeTitle} />}
                         </li>
                     })
                 }
