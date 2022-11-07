@@ -5,7 +5,6 @@ export const Container = styled.div`
 `;
 
 export const Area = styled.div`
-    /* display: grid; */
     /* grid-template-rows: auto auto auto; */
     margin-left: 324px;
     margin-right: 324px;

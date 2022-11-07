@@ -12,9 +12,9 @@ export function Home() {
 
     return (
         <Container>
-
-            <Header />
             
+            <Header />
+
             <Area >    
                 <div>
                     <h1>
