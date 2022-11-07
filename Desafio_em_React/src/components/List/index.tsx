@@ -20,7 +20,7 @@ export function List({ changeTitle }: ListProps) {
             <ul>
                 {
                     lista.map((value, index) => {
-                        return <li>
+                        return <li key={index}>
                             {<ListButton title={value} changeTitle= {changeTitle} />}
                         </li>
                     })

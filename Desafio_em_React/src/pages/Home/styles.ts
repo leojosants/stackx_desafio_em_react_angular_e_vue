@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 100vh;
+    min-height: 100vh;
 `;
 
-export const Content = styled.div`
+export const Area = styled.div`
+    margin: auto;
+    max-width: 980px;
+    padding: 10px;
+
     color: #FFFFFF;
 
-    h1 {
+
+
+    /* h1 {
         width: 791px;
         height: 76px;
         margin-top: 168px;
@@ -18,5 +24,5 @@ export const Content = styled.div`
         line-height: 38.4px;
         text-align: center;
 
-    }
+    } */
 `;

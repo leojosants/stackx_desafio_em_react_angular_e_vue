@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header'
 import { List } from '../../components/List'
-import { Container, Content } from './styles';
+import { Container, Area } from './styles';
 
 export function Home() {
 
@@ -14,7 +14,7 @@ export function Home() {
         <Container>
             <Header />
 
-            <Content >
+            <Area >
                 <div>
                     <h1>
                         {title}
@@ -24,7 +24,7 @@ export function Home() {
                 <List changeTitle={setTitle} />
                 <Footer changeTitle={setTitle} />
 
-            </Content>
+            </Area>
 
         </Container>
     )

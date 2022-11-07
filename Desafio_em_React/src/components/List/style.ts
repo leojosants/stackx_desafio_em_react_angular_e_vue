@@ -8,6 +8,7 @@ export const Container = styled.div`
     margin-left: 324px;
     margin-top: 305px;
     padding: 30px;
+    display: flex;
 
     border: 1px solid #9D4B00;
     background: #27272A;
