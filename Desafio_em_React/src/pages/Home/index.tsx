@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header'
-import { List } from '../../components/List'
+import { List } from '../../components/ListTech'
 import { Container, Area } from './styles';
 
 export function Home() {
@@ -12,9 +12,10 @@ export function Home() {
 
     return (
         <Container>
-            <Header />
 
-            <Area >
+            <Header />
+            
+            <Area >    
                 <div>
                     <h1>
                         {title}
@@ -23,7 +24,6 @@ export function Home() {
 
                 <List changeTitle={setTitle} />
                 <Footer changeTitle={setTitle} />
-
             </Area>
 
         </Container>

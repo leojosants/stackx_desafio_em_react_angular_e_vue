@@ -19,10 +19,12 @@ export const GlobalStyle = createGlobalStyle`
 
     body, button {
         font-family: 'Inter', sans-serif;
-        /* color: #FFFF; */
+        color: #FFFF;
     }
 
     button {
+        /* border: none; */
+        /* background: none; */
         cursor: pointer;
     }
 

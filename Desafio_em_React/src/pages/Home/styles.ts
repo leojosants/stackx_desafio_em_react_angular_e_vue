@@ -5,24 +5,20 @@ export const Container = styled.div`
 `;
 
 export const Area = styled.div`
-    margin: auto;
-    max-width: 980px;
-    padding: 10px;
+    /* display: grid; */
+    /* grid-template-rows: auto auto auto; */
+    margin-left: 324px;
+    margin-right: 324px;
+    /* max-width: 980px; */
+    /* width: 300px; */
 
-    color: #FFFFFF;
-
-
-
-    /* h1 {
-        width: 791px;
-        height: 76px;
-        margin-top: 168px;
-        margin-left: 325px;
-        
-        font-weight: 700px;
-        font-size: 24px;
-        line-height: 38.4px;
+    h1 {
+        margin: 0;
+        padding: 0;
         text-align: center;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        font-size: 1.5rem;
+    }
 
-    } */
 `;
