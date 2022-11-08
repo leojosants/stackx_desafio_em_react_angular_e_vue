@@ -7,12 +7,12 @@ export const Container = styled.div`
 export const Area = styled.div`
     max-width: 980px;
     margin: 168px auto 325px ;
-    width: 793px;
-    height: 173px;
+    width: 49.5rem; /*793px; */
+    height: 10.8rem; /*173px */
 
     h1 {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 60px;
