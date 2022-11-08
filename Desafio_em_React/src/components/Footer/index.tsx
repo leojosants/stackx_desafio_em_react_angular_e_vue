@@ -17,22 +17,19 @@ export function Footer({ changeTitle }: FooterProps) {
 
     function handleChangePortuguese() {
         changeTitle(`
-            Olá, meu nome é Gabriel Lennon e sou Desenvolvedor Front-end,
-            Tecnologias que tenho experiência:
+            Olá, meu nome é Leonardo Santos e eu sou Desenvolvedor Full Stack Jr. Tecnologias que tenho conhecimento:
         `);
     };
 
     function handleChangeEnglish() {
         changeTitle(`
-            Hello, my name is Gabriel Lennon and I am Front-end Developer,
-            Technologies I have experience:
+            Hello, my name is Leonardo Santos and I am a Full Stack Jr Developer. Technologies I am familiar with:
         `);
     };
 
     function handleChangeSpanish() {
         changeTitle(`
-            Hola, mi nombre es Gabriel Lennon y soy desarrollador front-end,
-            Tecnologías en las que tengo experiencia:
+            Hola, mi nombre es Leonardo Santos y soy Desarrollador Full Stack Jr. Tecnologías con las que estoy familiarizado:
         `);
     };
 
@@ -48,14 +45,14 @@ export function Footer({ changeTitle }: FooterProps) {
 
             <button onClick={handleChangeEnglish}>
                 <div className='div2'>
-                    <ImageSpain src={spain} alt='image' />
+                    <ImageSpain src={unitedStates} alt='image' />
                     Inglês
                 </div>
             </button>
 
             <button onClick={handleChangeSpanish}>
                 <div className='div3'>
-                    <ImageUnitedStates src={unitedStates} alt='image' />
+                    <ImageUnitedStates src={spain} alt='image' />
                     Espanhol
                 </div>
             </button>

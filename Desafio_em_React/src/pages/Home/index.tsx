@@ -23,8 +23,9 @@ export function Home() {
                 </div>
 
                 <List changeTitle={setTitle} />
-                <Footer changeTitle={setTitle} />
             </Area>
+            
+            <Footer changeTitle={setTitle} />
 
         </Container>
     )
