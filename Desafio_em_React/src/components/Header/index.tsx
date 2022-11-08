@@ -10,7 +10,7 @@ export function Header() {
     return (
         <Container>
             <Content>
-                <a href={'https://academia.stackx.com.br/'} target='_blank' title='stackx'>
+                <a href={'https://academia.stackx.com.br/'} target='_blank' title='Logo StackX'>
                     <ImageLogo  src={logoSvg} alt='logo' />
                 </a>
             </Content>

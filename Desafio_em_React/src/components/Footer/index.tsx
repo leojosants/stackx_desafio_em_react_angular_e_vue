@@ -37,22 +37,22 @@ export function Footer({ changeTitle }: FooterProps) {
         <Container>
 
             <button onClick={handleChangePortuguese}>
-                <div className='div1'>
-                    <ImageBrazil src={brazil} alt='image' />
+                <div>
+                    <ImageBrazil src={brazil} alt='Brazilian flag' title='Brazilian flag' />
                     Português
                 </div>
             </button>
 
             <button onClick={handleChangeEnglish}>
-                <div className='div2'>
-                    <ImageSpain src={unitedStates} alt='image' />
+                <div>
+                    <ImageSpain src={unitedStates} alt='American flag' title='American flag' />
                     Inglês
                 </div>
             </button>
 
             <button onClick={handleChangeSpanish}>
-                <div className='div3'>
-                    <ImageUnitedStates src={spain} alt='image' />
+                <div>
+                    <ImageUnitedStates src={spain} alt='Spanish fag' title='Spanish flag' />
                     Espanhol
                 </div>
             </button>

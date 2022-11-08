@@ -11,14 +11,13 @@ export function Home() {
     `);
 
     return (
+        
         <Container>
             <Header />
             
             <Section >    
                 <div>
-                    <h1>
-                        {title}
-                    </h1>
+                    <h1> {title}  </h1>
                 </div>
 
                 <List changeTitle={setTitle} />
