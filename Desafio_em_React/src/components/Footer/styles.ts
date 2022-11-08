@@ -3,10 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
     /* grid-area: footer; */
 
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 1px 5px;
+    /* max-width: 980px; */
+    margin: 0;
+
+    padding: 5px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 
@@ -14,22 +17,19 @@ export const Container = styled.div`
         margin-bottom: 28px;
         border: 0;
         border-radius: 8px;
-        width: 8.3rem; /* 133px */
-        height: 3.1rem; /* 51px */
-        margin-top: 234px;
+        width: 8.3rem;
+        height: 3.1rem;
+        margin-top: 834px;
         background: var(--shark);
-        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 600px;
-        font-size: 1.25rem; /* 20px */
+        font-size: 1.25rem;
         line-height: 160%;
-
         transition: filter(0.2s);
 
         &:hover {
             filter: brightness(0.7);
         }
-
     }
 
 `;

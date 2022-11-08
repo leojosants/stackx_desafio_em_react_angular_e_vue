@@ -7,12 +7,13 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
     padding: 1px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 
 `;
 
@@ -20,6 +21,7 @@ export const ImageLogo = styled.img`
     padding: 5px 8px;
     background: var(--rgba);
     border-radius: 8px;
+    margin-top: 22px;
     transition: filter 0.2s;
     
     &:hover {

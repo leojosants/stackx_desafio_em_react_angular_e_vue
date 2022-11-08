@@ -1,32 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    /* min-height: 100vh; */
-
-    /* width: 100%;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-rows: 150px 450px 150px;
-    grid-template-areas: "header", "area", "footer"; */
+    grid-template-rows: 100px 450px 150px;
+    grid-template-areas: "header", "area", "footer";
+
+    min-height: 100vh;
 `;
 
-export const Area = styled.div`
+export const Section = styled.div`
     /* grid-area: area; */
 
     max-width: 980px;
-    margin: 168px auto 325px ;
-    width: 49.5rem; /*793px;*/
-    height: 10.8rem; /*173px;*/
+    margin: 168px auto 325px;    
+    width: 55rem;    
 
     h1 {
         margin: 0px;
         padding: 0px;
-        text-align: center;
-        margin-top: 50px;
         margin-bottom: 60px;
-        font-size: 1.5rem; /*24px*/
+        font-size: 1.5rem; 
         line-height: 38.4px;
-
     }
-
-`;
+   
+`; 
