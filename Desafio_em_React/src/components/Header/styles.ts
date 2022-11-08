@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background: #27272A;
+    background: var(--shark);
 `;
 
 export const Content = styled.div`
@@ -17,7 +17,7 @@ export const Content = styled.div`
 
 export const ImageLogo = styled.img`
     padding: 5px 8px;
-    background: rgba(218, 218, 218, 0.33);
+    background: var(--rgba);
     border-radius: 8px;
   
   

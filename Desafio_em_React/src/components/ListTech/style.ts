@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
    
-   border: 1px solid #9D4B00;
+   border: 1px solid var(--brown);
    border-radius: 8px;
    padding: 10px;
-   background: #27272A;
+   background: var(--shark);
    font-size: 1.25rem; /* 20px */
    line-height: 32px;
    display: flex;
@@ -18,7 +18,7 @@ export const Container = styled.div`
 
    button {
         
-        background: #27272A;
+        background: var(--shark);
         border: none;
         font-family: 'Inter', sans-serif;
         font-style: normal;

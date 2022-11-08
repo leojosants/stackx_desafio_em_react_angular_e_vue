@@ -15,7 +15,7 @@ export const Container = styled.div`
         width: 8.3rem; /* 133px */
         height: 3.1rem; /* 51px */
         margin-top: 234px;
-        background: #27272A;
+        background: var(--shark);
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 600px;

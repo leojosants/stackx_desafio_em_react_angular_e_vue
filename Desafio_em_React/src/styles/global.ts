@@ -3,7 +3,15 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
     :root {
-        /* PASSAR CORES PRA CÁ */
+        --cod-gray: #121212;
+
+        --white: #FFFFFF;
+
+        --shark: #27272A;
+
+        --brown: #9D4B00;
+
+        --rgba: rgba(218, 218, 218, 0.33);
     }
 
     * {
@@ -13,18 +21,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: #121212;
+        background: var(--cod-gray);
         -webkit-font-smoothing: antialiased;
     }
 
     body, button {
         font-family: 'Inter', sans-serif;
-        color: #FFFF;
+        color: var(--white);
     }
 
     button {
-        /* border: none; */
-        /* background: none; */
         cursor: pointer;
     }
 
