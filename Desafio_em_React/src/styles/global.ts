@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: var(--cod-gray);
         -webkit-font-smoothing: antialiased;
-        text-align: center;
     }
 
     body, button {

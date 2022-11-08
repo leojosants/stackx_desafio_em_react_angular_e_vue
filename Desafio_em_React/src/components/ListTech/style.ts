@@ -7,6 +7,8 @@ export const Container = styled.div`
     border: 1px solid var(--brown);
     border-radius: 8px;
     padding: 1.3rem 5rem;
+    font-size: 1.25rem;
+    line-height: 32px;
 
     ul {
         display: flex;
@@ -20,9 +22,6 @@ export const Container = styled.div`
         }
     }
     
-    font-size: 1.25rem;
-    line-height: 32px;
-
    button {
         margin: 0;
         margin-left: -60px;

@@ -5,14 +5,10 @@ export const Container = styled.div`
     margin: auto;
     display: grid;
     grid-template-rows: 100px 450px 150px;
-    grid-template-areas: "header", "area", "footer";
-
     min-height: 100vh;
 `;
 
 export const Section = styled.div`
-    /* grid-area: area; */
-
     max-width: 980px;
     margin: 168px auto 325px;    
     width: 55rem;    
@@ -23,6 +19,7 @@ export const Section = styled.div`
         margin-bottom: 60px;
         font-size: 1.5rem; 
         line-height: 38.4px;
+        text-align: center;
     }
    
 `; 

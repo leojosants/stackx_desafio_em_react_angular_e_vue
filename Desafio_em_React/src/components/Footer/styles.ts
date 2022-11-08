@@ -1,25 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    /* grid-area: footer; */
-
-    /* max-width: 980px; */
     margin: 0;
-
-    padding: 5px;
+    padding: 20%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-
+    
     button {
-        margin-bottom: 28px;
         border: 0;
         border-radius: 8px;
         width: 8.3rem;
         height: 3.1rem;
-        margin-top: 834px;
+        margin-top: 700px;
         background: var(--shark);
         font-style: normal;
         font-weight: 600px;
