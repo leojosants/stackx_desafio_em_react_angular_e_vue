@@ -11,7 +11,7 @@ export const Container = styled.main`
 `;
 
 export const Content = styled.article`
-    max-width: 49.3rem;
+    max-width: 800px; 49.3rem;
     min-width: 18.5rem;
     height: 100vh;
     padding-top: 7rem;
