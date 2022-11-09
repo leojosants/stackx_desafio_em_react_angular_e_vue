@@ -32,7 +32,7 @@
     - TypeScript (adiciona tipagem estática opcional ao JavaScript)
     - JavaScript
     - HTML
-    - SASS
+    - SCSS
   
   - Editor de código:
     - <a href="https://code.visualstudio.com/"> Visual Studio Code </a>
