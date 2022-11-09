@@ -1,13 +1,16 @@
-import { Home } from "./pages/Home"
-import { GlobalStyle } from "./styles/global"
+// 
+import { GlobalStyle } from './styles/global';
+
+import Home from './pages/Home'
 
 function App() {
-  return (
-    <>
-      <Home />
-      <GlobalStyle />
-    </>
-  )
-}
+  return(
+      <>
+        <GlobalStyle />
+        <Home />
+      </>
+
+    );
+};
 
 export default App

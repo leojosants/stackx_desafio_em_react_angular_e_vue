@@ -1,17 +1,12 @@
-import {
-    Container,
-    ImageBrazil,
-    ImageSpain,
-    ImageUnitedStates
-} from './styles';
+import { Container } from "./styles";
 
-import brazil from '../../assets/images/brazil.png';
-import spain from '../../assets/images/spain.png';
-import unitedStates from '../../assets/images/united-states.png';
+import brazil from '../../assets/icons/brazil.svg';
+import english from '../../assets/icons/english.svg';
+import spanish from '../../assets/icons/spanish.svg';
 
 type FooterProps = {
-    changeTitle: (params: string) => void
-}
+    changeTitle: (params: string) => void;
+};
 
 export function Footer({ changeTitle }: FooterProps) {
 
@@ -35,27 +30,23 @@ export function Footer({ changeTitle }: FooterProps) {
 
     return (
         <Container>
-            <button onClick={handleChangePortuguese}>
-                <div>
-                    <ImageBrazil src={brazil} alt='Brazilian flag' title='Brazilian flag' />
-                    Português
-                </div>
-            </button>
+            <div>
+                <button onClick={handleChangePortuguese}>
+                    <img src={brazil} alt="Brazilian flag" />
+                    <p>Português</p>
+                </button>
 
-            <button onClick={handleChangeEnglish}>
-                <div>
-                    <ImageSpain src={unitedStates} alt='American flag' title='American flag' />
-                    Inglês
-                </div>
-            </button>
+                <button onClick={handleChangeEnglish}>
+                    <img src={english} alt="American flag" />
+                    <p>Inglês</p>
+                </button>
 
-            <button onClick={handleChangeSpanish}>
-                <div>
-                    <ImageUnitedStates src={spain} alt='Spanish fag' title='Spanish flag' />
-                    Espanhol
-                </div>
-            </button>
-
+                <button onClick={handleChangeSpanish}>
+                    <img src={spanish} alt="Spanish flag" />
+                    <p>Espanhol</p>
+                </button>
+            </div>
         </Container>
+
     );
-}
+};

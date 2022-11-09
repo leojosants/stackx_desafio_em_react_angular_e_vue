@@ -1,25 +1,32 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-rows: 100px 450px 150px;
-    min-height: 100vh;
+export const Container = styled.main`
+    height: 100vh;
+    color: var(--white);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
-export const Section = styled.div`
-    max-width: 980px;
-    margin: 168px auto 325px;    
-    width: 55rem;    
+export const Content = styled.article`
+    max-width: 49.3rem;
+    min-width: 18.5rem;
+    height: 100vh;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 60px;
-        font-size: 1.5rem; 
-        line-height: 38.4px;
-        text-align: center;
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-align: justify;
+        margin-bottom: 2rem;
     }
-   
-`; 
+`;

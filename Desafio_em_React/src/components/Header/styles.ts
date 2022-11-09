@@ -1,27 +1,21 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    /* grid-area: header; */
-
+export const Container = styled.header`
+    width: 100vw;
+    height: 4.5rem;
+    position: fixed;
     background: var(--shark);
-`;
-
-export const Content = styled.div`
-    /* max-width: 1440px; */
-    /* margin: 0 auto; */
-    padding: 1px 5px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 10px;
-
+    align-items: center;
 `;
 
 export const ImageLogo = styled.img`
-    padding: 5px 8px;
-    background: var(--rgba);
-    border-radius: 8px;
-    margin-top: 22px;
+    width: 11.8rem;
+    height: 2.5rem;
+    padding: .5rem 1.2rem;
+    border-radius: .5rem;
+    background:  var(--rgba);
     transition: filter 0.2s;
     
     &:hover {

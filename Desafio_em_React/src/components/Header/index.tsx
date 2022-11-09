@@ -1,19 +1,17 @@
 import { 
     Container,
-    Content,
-    ImageLogo,
+    ImageLogo
 } from './styles';
+import logoStack from '../../assets/icons/logoStackx.svg'
 
-import logoSvg from '../../assets/icons/logo.svg';
-
-export function Header() {
-    return (
+function Header() {
+    return(
         <Container>
-            <Content>
-                <a href={'https://academia.stackx.com.br/'} target='_blank' title='Logo StackX'>
-                    <ImageLogo  src={logoSvg} alt='logo' />
+            <a href={'https://academia.stackx.com.br/'} target='_blank' title='Logo StackX'>
+                    <ImageLogo  src={logoStack} alt="Logo StackX" />
                 </a>
-            </Content>
         </Container>
     );
-};
+}
+
+export default Header;

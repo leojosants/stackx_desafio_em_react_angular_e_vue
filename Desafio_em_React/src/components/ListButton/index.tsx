@@ -1,20 +1,19 @@
-
-import { Container } from './style';
+import { Container } from './styles';
 
 type ListButtonProps = {
-    title : string;
-    changeTitle : (params : string) => void
+    title: string;
+    changeTitle: (params: string) => void
 }
 
-export function ListButton({title, changeTitle} : ListButtonProps) {
+export function ListButton({ title, changeTitle }: ListButtonProps) {
 
     function handleClick() {
-        changeTitle(`Tecnologia selecionada: ` + title)
+        changeTitle(`Tecnologia selecionada: ` + title);
     }
 
-    return(
+    return (
         <Container onClick={handleClick}>
-            {title}
+            { title }
         </Container>
     );
 }

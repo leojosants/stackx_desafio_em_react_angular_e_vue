@@ -1,30 +1,36 @@
-import { useState } from 'react';
-import { Footer } from '../../components/Footer';
-import { Header } from '../../components/Header'
-import { List } from '../../components/ListTech'
-import { Container, Section } from './styles';
+import Header from "../../components/Header";
+import { useState } from "react";
+import { Footer } from '../../components/Footer'
+import { List } from "../../components/ListTchs";
 
-export function Home() {
+import { 
+    Container,
+    Content,
+} from './styles'
 
-    const [title, setTitle] = useState(`
-        Olá, meu nome é Leonardo Santos e eu sou um desenvolvedor Front-End, Tecnologias que tenho experiência:
-    `);
-
-    return (
-        
-        <Container>
+function Home() {
+    const [ title, setTitle ] = useState(
+        'Olá, meu nome é Leonardo Santos e eu sou um desenvolvedor Front-End, Tecnologias que tenho experiência:'
+    );
+    
+    return(
+        <>
             <Header />
             
-            <Section >    
-                <div>
-                    <h1> {title} </h1>
+            <Container>
+                <Content>
 
-                </div>
-                    <List changeTitle={setTitle} />
-            </Section>
-            
-            <Footer changeTitle={setTitle} />
+                    <div>
+                        <h1>{title}</h1>
+                        
+                        <List changeTitle={setTitle} />
+                        </div>
 
-        </Container>
-    )
+                    <Footer changeTitle={setTitle}/>
+                </Content>
+            </Container>
+        </>
+    );
 }
+
+export default Home;

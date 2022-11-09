@@ -1,42 +1,33 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    margin: 0;
-    padding: 20%;
+
+ div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    width: 100%;
+
     button {
-        border: 0;
-        border-radius: 8px;
+        color: white;
         width: 8.3rem;
         height: 3.1rem;
-        margin-top: 700px;
-        background: var(--shark);
-        font-style: normal;
-        font-weight: 600px;
-        font-size: 1.25rem;
-        line-height: 160%;
-        transition: filter(0.2s);
+        border-radius: .5rem;
+        border: none;
+        background-color: var(--shark);
+        margin: 0 1rem;
 
-        &:hover {
-            filter: brightness(0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-right: .3rem;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 600;
         }
     }
-
-`;
-
-export const ImageBrazil = styled.img`
-    margin-right: 10px;
-`;
-
-
-export const ImageSpain = styled.img`
-    margin-right: 10px;
-`;
-
-export const ImageUnitedStates = styled.img`
-    margin-right: 10px;
-
-`;
+ }`;
