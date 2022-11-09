@@ -8,19 +8,19 @@
 > "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web." - <a href="https://reactjs.org/docs/getting-started.html"> Documentação </a>
 
 ### Passo a passo:
-  - Criando o projeto com a ferramenta de construção <a href="https://vitejs.dev/guide/"> VITE: </a>
+  - Para a construção de uma estrutura com os elementos essenciais para uma aplicação, foi utilizado a ferramenta <a href="https://vitejs.dev/guide/"> VITE </a>, possibilitando um melhor desempenho e agilidade através do comando:
     - npm create vite@latest
     
-  - Instalando dependências:
+  - Para o funcionamento da aplicação, é necessário instalar as dependências padrão através do comando:
     - npm install
     
-  - Subindo servidor local:
+  - O comando a seguir, cria um servidor local onde disponibiliza um link para acesso no browser:
     - npm run dev
     
-  - Instalando o estilizador da aplicação <a href="https://styled-components.com/"> (styled-components) </a> que nos permite escrever código CSS dentro do JavaScript:
+  - Para a estilização da aplicação, foi utilizado  o conceito CSS-in_JS (styled-components) </a> que nos permite escrever código CSS dentro do JavaScript:
     - npm install –save styled-components
     
-  - Informando o tipo de módulo que o estilizador utiliza:
+  - Como a estilização será desempenhada em módulos, é necessário informar o tipo de módulo que o estilizador utiliza:
     - npm i –save-dev @types/styled/components
 
 ## Aplicação em Angular
