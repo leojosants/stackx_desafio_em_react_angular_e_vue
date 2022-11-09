@@ -29,7 +29,10 @@
 
 ### TECNOLOGIAS UTILIZADAS NOS PROJETOS:
   - Linguagens:
-    - <a href="https://www.typescriptlang.org/docs/"> TypeScript </a> (adiciona tipagem estática opcional ao JavaScript)
+    - TypeScript (adiciona tipagem estática opcional ao JavaScript)
+    - JavaScript
+    - HTML
+    - SASS
   
   - Editor de código:
     - <a href="https://code.visualstudio.com/"> Visual Studio Code </a>
