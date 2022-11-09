@@ -7,7 +7,7 @@ import { Container, Section } from './styles';
 export function Home() {
 
     const [title, setTitle] = useState(`
-        Olá, meu nome é Leonardo Santos e eu sou Desenvolvedor Full Stack Jr. Tecnologias que tenho conhecimento:
+        Olá, meu nome é Leonardo Santos e eu sou um desenvolvedor Front-End, Tecnologias que tenho experiência:
     `);
 
     return (
@@ -17,10 +17,10 @@ export function Home() {
             
             <Section >    
                 <div>
-                    <h1> {title}  </h1>
-                </div>
+                    <h1> {title} </h1>
 
-                <List changeTitle={setTitle} />
+                </div>
+                    <List changeTitle={setTitle} />
             </Section>
             
             <Footer changeTitle={setTitle} />

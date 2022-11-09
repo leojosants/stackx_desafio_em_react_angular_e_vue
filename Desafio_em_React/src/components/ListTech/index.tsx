@@ -1,5 +1,5 @@
-import { Container } from "./style";
-import { ListButton } from '../ListButton/index';
+import { Container } from "./styles";
+import { ListButton } from '../ListButton';
 
 type ListProps = {
     changeTitle: (params: string) => void;
@@ -7,7 +7,7 @@ type ListProps = {
 
 export function List({ changeTitle }: ListProps) {
 
-    const lista = [
+    const list = [
         "JavaScript", "React",
         "Vue Js", "Tailwind CSS",
         "Styled Components", "Saas",
@@ -19,7 +19,7 @@ export function List({ changeTitle }: ListProps) {
         <Container>
             <ul>
                 {
-                    lista.map((value, index) => {
+                    list.map((value, index) => {
                         return <li key={index}>
                             {<ListButton title={value} changeTitle= {changeTitle} />}
                         </li>
