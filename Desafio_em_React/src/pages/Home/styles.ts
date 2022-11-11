@@ -13,7 +13,7 @@ export const Container = styled.main`
 `;
 
 export const Content = styled.article`
-    width: 50%;
+    width: 100%;
     max-width: 800px;
     min-width: 18.5rem;
     height: 100vh;
