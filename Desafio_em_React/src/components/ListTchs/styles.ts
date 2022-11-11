@@ -24,6 +24,15 @@ export const Container = styled.div`
     @media only screen and (max-width: 600px) {
         align-items: center;
         height: auto;
+        width: auto;
         columns: 2;
     }
+
+    @media only screen and (min-width: 600px) {
+        align-items: center;
+        height: auto;
+        width: auto;
+        columns: 3;
+    }
+
 `;

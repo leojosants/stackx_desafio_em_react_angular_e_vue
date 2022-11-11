@@ -29,4 +29,17 @@ export const Content = styled.article`
         text-align: justify;
         margin-bottom: 2rem;
     }
+    
+    @media only screen and (max-width: 600px) {
+        h1 { 
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        h1 { 
+            text-align: center;
+        }
+    }
+
 `;
