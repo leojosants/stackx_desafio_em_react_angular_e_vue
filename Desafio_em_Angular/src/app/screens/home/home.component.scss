@@ -1,0 +1,23 @@
+header {
+  width: 100vw;
+  height: 4.5rem;
+  position: fixed;
+  background: #27272A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 11.8rem;
+    height: 2.5rem;
+    padding: .5rem 1.2rem;
+    border-radius: .5rem;
+    background: rgba(218, 218, 218, 0.33);
+
+    transition: filter 0.2s;
+    &:hover {
+      filter: brightness(0.5);
+    }
+  }
+
+}
