@@ -2,7 +2,7 @@
 
 ## Práticas do módulo Web 3.0 - <a href="https://academia.stackx.com.br/">STACKX</a>
 
-- Nesse repositório serão apresentadas 3 aplicações com a mesma proposta, porém cada uma com seu conceito particular.
+- Nesse repositório serão apresentadas 3 aplicações com proposta de uma Single Page Application (Aplicação em página Única), porém cada uma com seu conceito em particular.
 
 ## Aplicação em React
 > "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web." - <a href="https://reactjs.org/docs/getting-started.html"> Documentação </a>
