@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
+    width: 100vw;
+
     height: 100vh;
     color: var(--white);
     
@@ -11,7 +13,8 @@ export const Container = styled.main`
 `;
 
 export const Content = styled.article`
-    max-width: 800px; 49.3rem;
+    width: 50%;
+    max-width: 800px;
     min-width: 18.5rem;
     height: 100vh;
     padding-top: 7rem;

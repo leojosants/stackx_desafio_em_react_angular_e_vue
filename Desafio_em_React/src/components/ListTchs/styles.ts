@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     background-color: var(--shark);
     width: 800px;
+
     height: 10.8rem;
     border: 2px solid var(--brown);
     border-radius: .5rem;
