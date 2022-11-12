@@ -9,7 +9,7 @@ type ListProps = {
 export function List({ changeTitle }: ListProps) {
 
     const techs = [
-        'C', 'C++', 'C#', 'Java', 'Python', 'SQL', 'JavaScript', 'TypeScript', 'HTML', 'SaaS', 'Node.Js', 'Spring Boot', 'React', 'Styled-Components', 'VueJs','Tailwind', 'Angular', 'Axios' 
+        'JavaScript', 'React', 'Vue Js', 'Tailwind CSS', 'Styled Components', 'Saas', 'Node', 'TypeScript', 'Angular', 'Java'
     ];
 
     return (

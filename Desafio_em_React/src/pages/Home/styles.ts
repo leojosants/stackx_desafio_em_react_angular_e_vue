@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.main`
     width: 100vw;
-
     height: 100vh;
     color: var(--white);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
