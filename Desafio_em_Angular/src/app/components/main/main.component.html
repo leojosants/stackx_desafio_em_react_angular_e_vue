@@ -1,12 +1,13 @@
 <!--  -->
-<div class="container">
+<div ngClass="container">
 
-  <div class="content">
+  <div ngClass="content">
 
     <div>
       <h1>
-        Olá, meu nome é Leonardo Santos e eu sou Desenvolvedor Front-end,
-        Tecnologias que tenho experiência:
+        {{ selected }}
+        <!-- Olá, meu nome é Leonardo Santos e eu sou Desenvolvedor Front-end,
+        Tecnologias que tenho experiência: -->
       </h1>
 
       <app-list-techs></app-list-techs>
@@ -14,6 +15,6 @@
 
   </div>
 
-  <app-footer></app-footer>
+  <app-footer changeTitle ></app-footer>
 
 </div>
