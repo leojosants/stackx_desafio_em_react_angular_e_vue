@@ -2,15 +2,7 @@
 
 <div ngClass="list-techs">
   <ul>
-    <li> JavaScript </li>
-    <li> React </li>
-    <li> Vue Js </li>
-    <li> Tailwind CSS </li>
-    <li> Styled Components </li>
-    <li> Saas </li>
-    <li> Node </li>
-    <li> TypeScript </li>
-    <li> Angular </li>
-    <li> Java </li>
+    <li *ngFor="let tech of techs"> {{ tech }} </li>
   </ul>
+
 </div>
