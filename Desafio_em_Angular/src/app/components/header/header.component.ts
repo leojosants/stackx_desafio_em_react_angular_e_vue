@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.sass']
 })
+
 export class HeaderComponent implements OnInit {
+
+  logo = '../../../assets/images/logo.png'
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }

@@ -2,8 +2,10 @@
 
 <app-header></app-header>
 
-<app-main></app-main>
+<app-main [selected]="selected"></app-main>
 
-<footer>
-  <app-botao></app-botao>
+<footer ngClass="container_footer">
+  <app-botao *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-botao>
+
+
 </footer>

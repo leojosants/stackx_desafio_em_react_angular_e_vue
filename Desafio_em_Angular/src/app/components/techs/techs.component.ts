@@ -1,19 +1,49 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-techs',
   templateUrl: './techs.component.html',
   styleUrls: ['./techs.component.sass']
 })
-export class TechsComponent implements OnInit {
 
-  techs = [
-    'JavaScript', 'React', 'Vue Js', 'Tailwind CSS', 'Styled Components', 'Sass', 'Node', 'TypeScriot', 'Angular', 'Java'
-  ]
+export class TechsComponent {
 
-  constructor() { }
+//   techs = [
+//     {
+//       name: 'JavaScript',
+//     },
+//     {
+//       name: 'React',
+//     },
+//     {
+//       name: 'Vue Js',
+//     },
+//     {
+//       name: 'Tailwind CSS',
+//     },
+//     {
+//       name: 'Styled Components',
+//     },
+//     {
+//       name: 'Sass',
+//     },
+//     {
+//       name: 'Node',
+//     },
+//     {
+//       name: 'TypeScript',
+//     },
+//     {
+//       name: 'Angular',
+//     },
+//     {
+//       name: 'Java',
+//     }
+//   ]
 
-  ngOnInit(): void {
-  }
+// techs = [
+//   'Java',
+//   'Java',
+// ]
 
 }

@@ -7,24 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  flags = [
-    {
-      name: 'Brasil',
-      src: '../../../assets/images/brazil.png'
-    },
-    {
-      name: 'Inglês',
-      src: '../../../assets/images/united-states.png'
-    },
-    {
-      name: 'Espanha',
-      src: '../../../assets/images/spain.png'
-    }
-  ];
+  // flags = [
+  //   {
+  //     name: 'Brasil',
+  //     src: '../../../assets/images/brazil.png'
+  //   },
+  //   {
+  //     name: 'Inglês',
+  //     src: '../../../assets/images/united-states.png'
+  //   },
+  //   {
+  //     name: 'Espanha',
+  //     src: '../../../assets/images/spain.png'
+  //   }
+  // ];
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
