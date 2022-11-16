@@ -10,7 +10,9 @@
       <app-techs *ngFor="let item of techs" [techs]="item" (language)="onChangeTechs($event)"></app-techs>
     </div>
 
-    <app-footer *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-footer>
+    <div ngClass="botao_footer">
+      <app-footer *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-footer>
+    </div>
 
   </div>
 
