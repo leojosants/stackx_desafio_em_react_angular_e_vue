@@ -1,18 +1,17 @@
-<!-- <router-outlet></router-outlet> -->
-
 <app-header></app-header>
 
-<app-main [selected]="selected"></app-main>
+<div ngClass="container">
 
-<div>
+  <div ngClass="content">
 
-  <app-techs *ngFor="let item of techs" [techs]="item" (language)="onChangeTechs($event)"></app-techs>
+    <h1>{{selected}}</h1>
+
+    <div ngClass="content-techs">
+      <app-techs *ngFor="let item of techs" [techs]="item" (language)="onChangeTechs($event)"></app-techs>
+    </div>
+
+    <app-footer *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-footer>
+
+  </div>
 
 </div>
-
-
-<footer ngClass="container_footer">
-
-  <app-botao  *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-botao>
-
-</footer>

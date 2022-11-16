@@ -1,29 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.sass']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
 
-  // flags = [
-  //   {
-  //     name: 'Brasil',
-  //     src: '../../../assets/images/brazil.png'
-  //   },
-  //   {
-  //     name: 'Inglês',
-  //     src: '../../../assets/images/united-states.png'
-  //   },
-  //   {
-  //     name: 'Espanha',
-  //     src: '../../../assets/images/spain.png'
-  //   }
-  // ];
+  @Input() flags!: {name: string; flag: string;
+    metodo: () => void};
 
-  constructor() { }
+  @Output()
+  language = new EventEmitter();
 
-  ngOnInit(): void {}
+  handleClick(): void {
+    this.language.emit(this.flags.name);
+  }
 
 }

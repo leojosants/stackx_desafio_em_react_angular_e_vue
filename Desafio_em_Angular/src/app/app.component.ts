@@ -20,17 +20,17 @@ export class AppComponent {
 
   flags = [
     {
-      name: 'Brazil',
+      name: 'Português',
       flag: '../assets/images/brazil.png',
       metodo: () => (this.selected = this.language[0].portugues)
     },
     {
-      name: 'United-states',
+      name: 'Inglês',
       flag: '../assets/images/united-states.png',
       metodo: () => (this.selected = this.language[0].ingles)
     },
     {
-      name: 'Spain',
+      name: 'Espanhol',
       flag: '../assets/images/spain.png',
       metodo: () => (this.selected = this.language[0].espanhol)
     }
@@ -78,10 +78,10 @@ export class AppComponent {
   selected = this.language[0].portugues;
 
   onChangeLanguage($event: string) {
-    if($event === 'Brazil') {
+    if($event === 'Português') {
       this.flags[0].metodo();
     }
-    else if($event === 'Spain') {
+    else if($event === 'Inglês') {
       this.flags[1].metodo();
     }
     else {
@@ -96,28 +96,28 @@ export class AppComponent {
       this.selected = this.techsSelecionada + this.techs[0].name;
     }
     else if ($event === this.techs[1].name) {
-      this.selected =  this.techsSelecionada + this.techs[1].name;
+      this.selected = this.techsSelecionada + this.techs[1].name;
     }
-    else if ($event === 'Vue Js') {
-      this.selected =  this.techsSelecionada + this.techs[2].name;
+    else if ($event === this.techs[2].name) {
+      this.selected = this.techsSelecionada + this.techs[2].name;
     }
-    else if ($event === 'Tailwind CSS') {
-      this.selected =  this.techsSelecionada + this.techs[3].name;
+    else if ($event === this.techs[3].name) {
+      this.selected = this.techsSelecionada + this.techs[3].name;
     }
-    else if ($event === 'Styled Components') {
-      this.selected =  this.techsSelecionada + this.techs[4].name;
+    else if ($event === this.techs[4].name) {
+      this.selected = this.techsSelecionada + this.techs[4].name;
     }
-    else if ($event === 'Saas') {
-      this.selected =  this.techsSelecionada + this.techs[5].name;
+    else if ($event === this.techs[5].name) {
+      this.selected = this.techsSelecionada + this.techs[5].name;
     }
-    else if ($event === 'TypeScript') {
-      this.selected =  this.techsSelecionada + this.techs[6].name;
+    else if ($event === this.techs[6].name) {
+      this.selected = this.techsSelecionada + this.techs[6].name;
     }
-    else if ($event === 'Angular') {
-      this.selected =  this.techsSelecionada + this.techs[7].name;
+    else if ($event === this.techs[7].name) {
+      this.selected = this.techsSelecionada + this.techs[7].name;
     }
     else {
-      this.selected =  this.techsSelecionada + this.techs[8].name
+      this.selected = this.techsSelecionada + this.techs[8].name
     }
   }
 

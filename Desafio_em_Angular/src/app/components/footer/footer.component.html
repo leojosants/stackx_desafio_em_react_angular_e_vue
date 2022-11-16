@@ -1,12 +1,11 @@
 
-<footer ngClass="container_footer" ></footer>
+<div ng ngClass="botao_footer">
 
-<!--
-<div *ngFor="let item of flags">
+  <button title="#" (click)="handleClick()">
 
-  <button title={{item.name}}>
-    <img src={{item.src}} alt="images">
-    <p>{{item.name}}</p>
+    <img ngClass="flag" src={{flags.flag}} alt={{flags.name}}>
+    <p ngClass="txt_flag">{{flags.name}}</p>
+
   </button>
+</div>
 
-</div> -->
