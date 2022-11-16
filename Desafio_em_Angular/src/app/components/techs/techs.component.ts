@@ -8,42 +8,13 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 
 export class TechsComponent {
 
-//   techs = [
-//     {
-//       name: 'JavaScript',
-//     },
-//     {
-//       name: 'React',
-//     },
-//     {
-//       name: 'Vue Js',
-//     },
-//     {
-//       name: 'Tailwind CSS',
-//     },
-//     {
-//       name: 'Styled Components',
-//     },
-//     {
-//       name: 'Sass',
-//     },
-//     {
-//       name: 'Node',
-//     },
-//     {
-//       name: 'TypeScript',
-//     },
-//     {
-//       name: 'Angular',
-//     },
-//     {
-//       name: 'Java',
-//     }
-//   ]
+  @Input() techs!: {name: string, metodo: () => void};
 
-// techs = [
-//   'Java',
-//   'Java',
-// ]
+  @Output()
+  language = new EventEmitter();
+
+  handleClick() {
+    this.language.emit(this.techs.name);
+  }
 
 }

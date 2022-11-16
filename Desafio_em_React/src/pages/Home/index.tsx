@@ -23,7 +23,7 @@ function Home() {
                     <div>
                         <h1>{title}</h1>
                         
-                        <List changeTitle={setTitle} />
+                        <ListTechs changeTitle={setTitle} />
                     </div>
 
                     <Footer changeTitle={setTitle}/>

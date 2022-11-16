@@ -4,8 +4,15 @@
 
 <app-main [selected]="selected"></app-main>
 
-<footer ngClass="container_footer">
-  <app-botao *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-botao>
+<div>
 
+  <app-techs *ngFor="let item of techs" [techs]="item" (language)="onChangeTechs($event)"></app-techs>
+
+</div>
+
+
+<footer ngClass="container_footer">
+
+  <app-botao  *ngFor="let item of flags" [flags]="item" (language)="onChangeLanguage($event)"></app-botao>
 
 </footer>

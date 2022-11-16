@@ -6,7 +6,7 @@ type ListProps = {
     changeTitle: (params: string) => void;
 }
 
-export function List({ changeTitle }: ListProps) {
+export function ListTechs({ changeTitle }: ListProps) {
 
     const techs = [
         'JavaScript', 'React', 'Vue Js', 'Tailwind CSS', 'Styled Components', 'Saas', 'Node', 'TypeScript', 'Angular', 'Java'
