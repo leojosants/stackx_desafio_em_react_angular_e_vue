@@ -45,6 +45,10 @@
     - ng g m nome_da_pasta_para_armazenar_os_modulos "espaço" nome_da_pasta_que_estao_armazenando_os_modulos/nome_do_modulo
 
 ## Aplicação em Vue.Js
+> "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única." - <a href="https://vuejs.org/guide/introduction.html"> Documentação </a>
+
+### Passo a passo:
+  - 
 
 ### TECNOLOGIAS UTILIZADAS NOS PROJETOS:
   - Linguagens:
