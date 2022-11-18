@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import { useState } from "react";
 import { Footer } from '../../components/Footer'
-import { List } from "../../components/ListTchs";
+import { ListListTechs } from "../../components/ListTchs";
 
 import { 
     Container,
