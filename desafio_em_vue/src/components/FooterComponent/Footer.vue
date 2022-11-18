@@ -2,18 +2,11 @@
 <template>
 
     <footer>
+
         <div>
-
-            <button @click="handleClick(name)">
-
-                <img :src="src" :alt="name">
-            
-                <!-- <p>{{ titleTeste }}</p> -->
-            
-                <!-- <p>{{ translateTeste }}</p> -->
-            
+            <button class="w-32 h-12 rounded-lg bg-shark mt-0 mr-4 flex justify-center items-center" @click="handleClick(name)">
+                <img class="mr-1" :src="src" :alt="name">
             </button>
-
         </div>
 
     </footer>
@@ -24,27 +17,23 @@
 <script>
 
 export default {
+
     name: 'FooterComponent',
 
     props: {
-        title: String,
         flags: {}
     },
 
     data() {
         return {
-            titleTeste: this.title,
             name: this.flags.name,
-            src: this.flags.src,
-            // translateTeste: this.flags
         }
     },
 
     methods: {
         handleClick(name) {
-                // this.titleTeste = this.technologies.name
-                this.$emit('changeTitle', name)
-            }
+            this.$emit('changeTitle2', name)
+        }
     }
 }
 

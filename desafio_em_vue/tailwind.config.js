@@ -3,7 +3,7 @@
 module.exports = {
   content: [
     './public/index.html',
-    './src/**/*.{html, js, vue}'
+    './src/**/*.{html,js,vue}'
   ],
 
   theme: {

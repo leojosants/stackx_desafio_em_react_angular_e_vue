@@ -2,13 +2,15 @@
 <template>
 
     <section>
-        <ul>
-            <button @click="handleClick(name)">
-                <li>
-                    <!-- {{titleTeste}} -->
-                    {{name}}
-                </li>
+
+        <ul  class="inline-block flex-col flex-wrap h-full mr-2">
+
+            <button class="bg-shark mt-0 mr-4 " @click="handleClick(name)">
+
+                <li> {{ name }} </li>
+            
             </button>
+        
         </ul>
 
     </section>
@@ -27,14 +29,12 @@
 
         data() {
             return {
-                titleTeste: this.title,
                 name: this.technologies.name
             }
         },
 
         methods: {
             handleClick(name) {
-                // this.titleTeste = this.technologies.name
                 this.$emit('changeTitle', name)
             }
         }
