@@ -10,14 +10,7 @@
 
 > "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única." - <a href="https://vuejs.org/guide/introduction.html"> Documentação </a>
 
-
-
 ### TECNOLOGIAS UTILIZADAS NOS PROJETOS:
-  - Linguagens:
-    - TypeScript (adiciona tipagem estática opcional ao JavaScript)
-    - JavaScript
-    - HTML
-  
   - Editor de código:
     - <a href="https://code.visualstudio.com/"> Visual Studio Code </a>
     
