@@ -2,90 +2,15 @@
 
 ## Práticas do módulo Web 3.0 - <a href="https://academia.stackx.com.br/">STACKX</a>
 
-- Nesse repositório serão apresentadas 3 aplicações com proposta de uma Single Page Application (Aplicação em página Única), porém cada uma com seu conceito em particular.
+- Nesse repositório serão apresentadas 3 aplicações com a <a href="https://www.figma.com/file/kLwbzp5UBzbVBBUfgHlj8C/StackX?node-id=101%3A2&t=isoOBrJfdt974XTC-0"> proposta de uma Single Page Application (Aplicação em página Única) </a>, porém cada uma com seu conceito em particular.
 
-## Aplicação em React
 > "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web." - <a href="https://reactjs.org/docs/getting-started.html"> Documentação </a>
 
-### Passo a passo:
-  - Para a construção de uma estrutura com os elementos essenciais para uma aplicação, foi utilizado a ferramenta <a href="https://vitejs.dev/guide/"> VITE </a>, possibilitando um melhor desempenho e agilidade através do comando:
-    - npm create vite@latest
-    
-  - Para o funcionamento da aplicação, é necessário instalar as dependências padrão através do comando:
-    - npm install
-    
-  - O comando a seguir, cria um servidor local onde disponibiliza um link para acesso no browser:
-    - npm run dev
-    
-  - Para a estilização da aplicação, foi utilizado  o conceito CSS-in_JS (<a href="https://styled-components.com/"> Styled-Components <a>)  que nos permite escrever código CSS dentro do JavaScript:
-    - npm install –save styled-components
-    
-  - Como a estilização será desempenhada em módulos, é necessário informar o tipo de módulo que o estilizador utiliza:
-    - npm i –save-dev @types/styled/components
-
-## Aplicação em Angular
 > "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu." - <a href="https://angular.io/docs"> Documentação </a>
 
-### Passo a passo:
-  - Instalando o Angular:
-    - npm install -g @angular/cli
-    
-  - Criando novo projeto:
-    - ng new Desafio_em_Angular
-    
-  - Estilização utilizada <a href="https://sass-lang.com/documentation/"> Sass </a>
-  
-  - O comando a seguir, cria um servidor local onde disponibiliza um link para acesso no browser:
-    - ng serve
-  
-  - Criação de components:
-    - ng g c nome_da_pasta_para_armazenar_os_components "espaço" nome_da_pasta_que_estao_armazenando_os_componentes/nome_do_componente
-    
-  - Criação de módulos:
-    - ng g m nome_da_pasta_para_armazenar_os_modulos "espaço" nome_da_pasta_que_estao_armazenando_os_modulos/nome_do_modulo
-
-## Aplicação em Vue.Js
 > "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única." - <a href="https://vuejs.org/guide/introduction.html"> Documentação </a>
 
-### Passo a passo:
-  - Instação da href="https://cli.vuejs.org/"> CLI do Vue </a>:
-    - npm install -g @vue/cli "OU" yarn global add @vue/cli
-    
-  - Verificando a versão:
-    - vue –version
-    
-  - Atualizando pacote:
-    - npm update -g @vue/cli "OU" yarn global upgrade –latest@vue/cli
-    
-  - Criando novo projeto:
-    - npm init vue@latest "OU" vue create desafio_em_vue
-    
-  - O comando a seguir, cria um servidor local onde disponibiliza um link para acesso no browser:
-    - yarn serve
-    
-  - Transpilador utilizado para transformar o código Vue em JavaScript foi o <a href="https://babeljs.io/docs/en/"> Babel </a>
-  
-  - Estilização <a href="https://tailwindcss.com/"> Tailwind CSS </a>
-    - Intalação: 
-      - yarn add -dev tailwindcss postcss autoprefixer vite
-    - Gerando arquivo de configuração:
-      - npx tailwindcss init
-    - Extensão usada no editor Visual Studio Code: 
-      - Tailwind CSS IntelliSense
-      
-  - Criando um componente:
-    - Dentro da pasta padrão 'COMPONENTS', criar um nova pasta para cada componente e dentro da sua devida pasta criar arquivo com a extensão vue:
-      - nome_do_component_seguido_de_'Component' 
-        - nome_do_arquivo_seguido_da_extensão vue
-          - exemplo: HeaderComponent / Header.vue
-
-
 ### TECNOLOGIAS UTILIZADAS NOS PROJETOS:
-  - Linguagens:
-    - TypeScript (adiciona tipagem estática opcional ao JavaScript)
-    - JavaScript
-    - HTML
-  
   - Editor de código:
     - <a href="https://code.visualstudio.com/"> Visual Studio Code </a>
     
