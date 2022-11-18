@@ -1,8 +1,7 @@
 import Header from "../../components/Header";
 import { useState } from "react";
 import { Footer } from '../../components/Footer'
-import { ListListTechs } from "../../components/ListTchs";
-
+import { ListTechnologies } from '../../components/ListTechnologies/index';
 import { 
     Container,
     Content,
@@ -23,7 +22,7 @@ function Home() {
                     <div>
                         <h1>{title}</h1>
                         
-                        <ListTechs changeTitle={setTitle} />
+                        <ListTechnologies changeTitle={setTitle} />
                     </div>
 
                     <Footer changeTitle={setTitle}/>

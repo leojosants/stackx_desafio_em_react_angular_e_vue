@@ -6,9 +6,9 @@ type ListProps = {
     changeTitle: (params: string) => void;
 }
 
-export function ListTechs({ changeTitle }: ListProps) {
+export function ListTechnologies({ changeTitle }: ListProps) {
 
-    const techs = [
+    const technologies = [
         'JavaScript', 'React', 'Vue Js', 'Tailwind CSS', 'Styled Components', 'Saas', 'Node', 'TypeScript', 'Angular', 'Java'
     ];
 
@@ -16,7 +16,7 @@ export function ListTechs({ changeTitle }: ListProps) {
         <Container>
             <ul>
                 {
-                    techs.map((tech, i) => {
+                    technologies.map((tech, i) => {
                         return <li key={i}>
                             {<ListButton title={tech} changeTitle= {changeTitle} />}
                             </li>
