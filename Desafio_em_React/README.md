@@ -1,4 +1,4 @@
-# Desafio Em React
+# Desafio em React
 
 ### Passo a passo:
   - Para a construção de uma estrutura com os elementos essenciais para uma aplicação, foi utilizado a ferramenta <a href="https://vitejs.dev/guide/"> VITE </a>, possibilitando um melhor desempenho e agilidade através do comando:
