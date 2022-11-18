@@ -5,12 +5,14 @@
   <HeaderComponent />
 
   <!-- container -->
+  <!-- <div class="text-white w-screen h-screen flex flex-col justify-center items-center"> -->
   <div class="text-white w-screen h-screen flex flex-col justify-center items-center">
 
     <!-- content -->
+    <!-- <div class="w-full max-w-3xl h-screen min-w-full[18.5rem] py-28 py-4 m-auto flex justify-between flex-col items-center"> -->
     <div class="w-full max-w-3xl h-screen min-w-full[18.5rem] py-28 py-4 m-auto flex justify-between flex-col items-center">
 
-      <h1 class="font-normal text-2xl text-center mb-8">{{ title }}</h1>
+      <h1 class="font-normal text-2xl text-center mb-8 my-20">{{ title }}</h1>
       
       <!-- "content-techs" -->
       <div class="bg-shark w-4/5 h-44 border-2 border-solid border-brown rounded-lg py-6 px-20 flex flex-col flex-wrap">

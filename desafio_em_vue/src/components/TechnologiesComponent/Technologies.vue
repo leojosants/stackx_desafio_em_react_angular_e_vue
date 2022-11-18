@@ -3,13 +3,15 @@
 
     <section>
 
-        <ul  class="inline-block flex-col flex-wrap h-full mr-2">
+        <ul  class="inline-block flex-col flex-wrap h-full mr-2 text-white">
 
-            <button class="bg-shark mt-0 mr-4 " @click="handleClick(name)">
+            <li>
+                <button class="bg-shark mt-0 mr-4 " @click="handleClick(name)">
 
-                <li> {{ name }} </li>
-            
-            </button>
+                    {{ name }} 
+                    
+                    </button>
+            </li>
         
         </ul>
 
