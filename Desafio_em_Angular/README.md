@@ -1,4 +1,4 @@
-# Desafio Em Angular
+# Desafio em Angular
 
 ### Passo a passo:
   - Instalando o Angular:
