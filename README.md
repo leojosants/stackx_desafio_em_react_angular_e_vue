@@ -2,7 +2,7 @@
 
 ## Práticas do módulo Web 3.0 - <a href="https://academia.stackx.com.br/">STACKX</a>
 
-- Nesse repositório serão apresentadas 3 aplicações com a <a href="https://www.figma.com/file/kLwbzp5UBzbVBBUfgHlj8C/StackX?node-id=101%3A2&t=isoOBrJfdt974XTC-0"> proposta de uma Single Page Application</a>, porém cada uma com seu conceito em particular.
+- Nesse repositório serão apresentadas 3 aplicações com a <a href="https://www.figma.com/file/kLwbzp5UBzbVBBUfgHlj8C/StackX?node-id=101%3A2&t=isoOBrJfdt974XTC-0"> proposta de uma Single Page Application</a>, porém cada uma com seu conceito particular.
 
 > "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web." - <a href="https://reactjs.org/docs/getting-started.html"> Documentação </a>
 
